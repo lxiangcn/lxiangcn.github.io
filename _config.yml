@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Orzm
-subtitle: subtitle
-description: description
-author: Alex Liu
+title: 囧囧有神
+subtitle: Orzm
+description: Orzm
+author: Alex
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://orzm.net
+url: http://me.orzm.net
 root: /
 permalink: post/:title.html
 permalink_defaults:
@@ -63,7 +63,26 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next
+
+#多说
+duoshuo_shortname: orzm
+
+social:
+  GitHub: https://github.com/--
+
+# Make duoshuo show UA
+# user_id must NOT be null when admin_enable is true!
+# you can visit http://dev.duoshuo.com get duoshuo user id.
+duoshuo_info:
+  ua_enable: true
+  admin_enable: false
+  user_id:
+  admin_nickname:
+
+since: 2012
+
+avatar: http://lxiangcn.github.io/images/avtar.jpg
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -71,20 +90,3 @@ deploy:
   type: git
   repository: git@github.com:lxiangcn/lxiangcn.github.io.git
   branch: master
-
-
-#是否开启“关于我”。
-#不开启——
-#aboutme: false
-#开启——
-aboutme: 虽然咸鱼翻身还是咸鱼,但至少可以变得好吃一点                                   //关于我介绍
-
-#是否开启友情链接
-#不开启——
-friends: false
-#开启——
-#friends:
-# 我的github: https://github.com/OOP-Code-Bunny/                           //自定义友情链接
-# 周孝刚: https://github.com/a5635268/
-# 王麟: http://kingarthas37.github.io/
-# 郑印: https://github.com/zhengyin/
