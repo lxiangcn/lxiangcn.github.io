@@ -13,7 +13,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.orzm.net/
+url: https://blog.orzm.net/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -107,7 +107,7 @@ nofollow:
   enable: true
   field: site
   exclude:
-    - "orzm.net"
+    - "blog.orzm.net"
 
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
