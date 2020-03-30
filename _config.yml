@@ -4,15 +4,16 @@
 
 # Site
 title: Orzm
-subtitle: Orzm
-description: Orzm
+subtitle: ""
+description: ""
+keywords:
 author: Alex
-language: zh-Hans
-timezone: Asia/Shanghai
+language: zh-CN
+timezone: "Asia/Shanghai"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.orzm.net
+url: https://www.orzm.net/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -86,17 +87,33 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
-  exclude:
-  ignore:
+exclude:
+ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-next
+theme: "next"
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: git@github.com:lxiangcn/lxiangcn.github.io.git
-  branch: master
+  type: "git"
+  repository: "git@github.com:lxiangcn/lxiangcn.github.io.git"
+  branch: "master"
+
+# 外部链接优化
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - "orzm.net"
+
+# Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
+  totalcount: true
+  separated_meta: true
