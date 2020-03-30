@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.orzm.net/"/>
+  <link href="https://blog.orzm.net/"/>
   <updated>2020-03-30T13:06:54.675Z</updated>
-  <id>https://www.orzm.net/</id>
+  <id>https://blog.orzm.net/</id>
   
   <author>
     <name>Alex</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://www.orzm.net/2020/03/30/hello-world/"/>
-    <id>https://www.orzm.net/2020/03/30/hello-world/</id>
+    <link href="https://blog.orzm.net/2020/03/30/hello-world/"/>
+    <id>https://blog.orzm.net/2020/03/30/hello-world/</id>
     <published>2020-03-30T13:06:46.435Z</published>
     <updated>2020-03-30T13:06:54.675Z</updated>
     
